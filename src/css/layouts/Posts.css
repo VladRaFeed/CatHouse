@@ -1,0 +1,27 @@
+.posts-section {
+    margin-bottom: 96px;
+}
+
+.posts-list {
+    margin-bottom: 96px;
+}
+
+.posts-list-item {
+    margin-bottom: 48px;
+}
+
+.post-photo {
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--main-text-color);
+    margin-bottom: 12px;
+}
+
+.post-subtitle {
+    line-height: 1.5;
+}

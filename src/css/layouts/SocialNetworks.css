@@ -1,0 +1,50 @@
+.socials-section {
+    margin-bottom: 96px;
+}
+
+.socials-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 140px);
+    column-gap: 8px;
+    row-gap: 24px;
+}
+
+.social-network-wrapper {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    gap: 16px;
+    align-items: center;
+    background-color: #D8DEF8;
+    border-radius: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.snw-first {
+    background-color: #D8DEF8;
+}
+
+.snw-second {
+    background-color: #FFE8F1;
+}
+
+.snw-third {
+    background-color: #FAE8EA;
+}
+
+.snw-fourth {
+    background-color: #E9F9F8;
+}
+
+.snw-fifth {
+    background-color: #FFFDDC;
+}
+
+.snw-sixth {
+    background-color: #F2EEF8;
+}
+.socials-list-item-text {
+    line-height: 1.5;
+    color: var(--second-text-color);
+}

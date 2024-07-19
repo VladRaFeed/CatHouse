@@ -1,0 +1,23 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/* Utils */
+@import url(./utils/Variables.css);
+@import url(./utils/Visually_Hidden.css);
+/* Base */
+@import url(./base/common.css);
+@import url(./base/reset.css);
+/* components */
+@import url(./components/container.css);
+@import url(./components/section-title.css);
+/* layouts */
+@import url(./layouts/Header.css);
+@import url(./layouts/Hero.css);
+@import url(./layouts/Posts.css);
+@import url(./layouts/SocialNetworks.css);
+@import url(./layouts/Video.css);
+@import url(./layouts/Footer.css);
