@@ -1,13 +1,31 @@
-.posts-section {
-    margin-bottom: 96px;
-}
-
 .posts-list {
     margin-bottom: 96px;
 }
 
+@media screen and (min-width: 1440px) {
+    .posts-list {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .posts-list {
+        display: grid;
+        gap: 36px;
+    }
+}
+
 .posts-list-item {
     margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .posts-list-item {
+        display: grid;
+        grid-template-columns: 264px 1fr;
+        gap: 24px;
+        margin-bottom: 0;
+    }
 }
 
 .post-photo {
@@ -15,11 +33,26 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .post-photo {
+        width: 264px;
+        height: 156px;
+        margin-bottom: 0;
+    }
+}
+
 .post-title {
     font-size: 16px;
     line-height: 1.25;
     color: var(--main-text-color);
     margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .post-title {
+        font-size: 20px;
+        line-height: 1.4;
+    }
 }
 
 .post-subtitle {
